@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @EnableFeignClients
 @SpringBootApplication
-@EnableJpaAuditing
 @RequiredArgsConstructor
+
 public class CmsApplication {
 
 	public static void main(String[] args) {
